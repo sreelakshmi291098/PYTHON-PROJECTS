@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>please sign up here!!!</h1>
+            <form method="POST">
+                {{form}}
+                {% csrf_token %}
+                <input type="submit" class="btn btn-primary" value="submit">
+            </form>
+        </div>
+    </body>
+</html>
